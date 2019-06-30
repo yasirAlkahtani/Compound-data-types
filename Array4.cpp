@@ -6,7 +6,6 @@ filename: Array4.cpp
 */
 
 #include<iostream>
-#include<string.h>
 
 
 int main(void){
