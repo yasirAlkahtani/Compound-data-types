@@ -1,23 +1,22 @@
 #include <iostream>
 
-using namespace std;
 
 int main () {
-   int  var = 20;   // actual variable declaration.
-   int  *ip;        // pointer variable
+   int  var = 10;   // actual variable declaration.
+   int  *pointer;        // pointer variable
 
-   ip = &var;       // store address of var in pointer variable
+   pointer = &var;       // store address of var in pointer variable
 
-   cout << "Value of var variable: ";
-   cout << var << endl;
+   std::cout << "Value of var variable: ";
+   std::cout << var << std::endl;
 
    // print the address stored in ip pointer variable
-   cout << "Address stored in ip variable: ";
-   cout << ip << endl;
+   std::cout << "Address stored in pointer variable: ";
+   std::cout << pointer << std::endl;
 
    // access the value at the address available in pointer
-   cout << "Value of *ip variable: ";
-   cerr << ip << endl;
+   std::cout << "Value of *pointer variable: ";
+   std::cerr << pointer << std::endl;
 
    return 0;
 }
