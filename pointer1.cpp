@@ -1,5 +1,10 @@
+/*
+FileName: pointer1.cpp
+created by Muhammad Yasir
+Date: 30.06.2019
+copy adress's variable to pointer 
+*/
 #include <iostream>
-
 
 int main () {
    int  var = 10;   // actual variable declaration.
