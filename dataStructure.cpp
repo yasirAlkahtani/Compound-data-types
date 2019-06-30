@@ -1,3 +1,10 @@
+/*
+FileName: dataStructure.cpp
+Created by Muhammad Yasir
+Date: 30.06.2019
+using data structure to show list of book
+*/
+
 #include <iostream>
 #include <cstring>
 
@@ -13,13 +20,13 @@ struct Books {
     struct Books book1;
     struct Books book2;
     //book spezifikation 1
-    strcpy(book1.title, "Buch für C++ Programieresprache");
+    strcpy(book1.title, "Buch fÃ¼r C++ Programieresprache");
     strcpy(book1.subject, "C++ Programieren");
     strcpy(book1.author, "Yasir Alkahtani");
     book1.book_id =1234;
 
     //book spezifikation 2
-    strcpy(book2.title, "Buch für C Programieresprache");
+    strcpy(book2.title, "Buch fÃ¼r C Programieresprache");
     strcpy(book2.subject, "C Programieren");
     strcpy(book2.author, "Yasir Alkahtani");
     book2.book_id =1234;
