@@ -1,19 +1,30 @@
-#include <iostream>
-using namespace std;
+/*
 
-class Box {
+FileName: dynamicMemory.cpp
+
+Created by Muhammad Yasir
+
+Date: 30.06.2019
+
+dynamic memory test
+
+*/
+
+#include <iostream>
+
+class Obj {
    public:
-      Box() {
-         cout << "Constructor called!" <<endl;
+      Obj() {
+         std::cout << "Constructor called!" <<std::endl;
       }
-      ~Box() {
-         cout << "Destructor called!" <<endl;
+      ~Obj() {
+         std::cout << "Destructor called!" <<std::endl;
       }
 };
 int main() {
 
-   Box* myBoxArray = new Box;
-   delete myBoxArray; // Delete array
+   Obj* ObjArray = new Obj;
+   delete [] ObjArray; // Delete array
 
    return 0;
 }
